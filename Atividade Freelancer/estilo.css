@@ -1,0 +1,120 @@
+body {
+  background: #bbbbb7;
+  font: 16px;
+  font-family: Apple Chancery, cursive;
+}
+
+#principal {
+  width: 90%;
+  margin: 10px auto;
+}
+
+#menu {
+  background: #6d6d6d;
+  padding: 18px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+#conteudo {
+  background: #e0e0e0;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+a {
+  color: #ddeb1d;
+  font-size: 1em;
+  font-family: Blippo, fantasy;
+  font-weight: bold;
+  text-decoration: none;
+
+  padding: 5px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+
+}
+
+a:hover,
+.selecionado {
+  font-size: 1.1em;
+  font-weight: 900;
+  color: #859c00;
+}
+
+#rodape {
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+
+  background-image: linear-gradient(to right,
+      rgb(217, 240, 14),
+      rgb(209, 212, 5),
+      rgb(250, 235, 31));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(206, 255, 28);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: OCR A Std, monospace;
+}
+
+h2 {
+  color: #001846;
+  font-size: 2em;
+}
+
+#logo-fundo {
+  background: #152e5c;
+  height: 300px;
+  width: 100%;
+  border-radius: 3px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.img-anos80 {
+  width: 75vw;
+  height: 65vh;
+  display: block;
+  margin: 0% auto;
+  border-radius: 3px;
+  padding-bottom: 30px;
+}
+
+
+
+button {
+  background-color: #001846;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 15px;
+}
